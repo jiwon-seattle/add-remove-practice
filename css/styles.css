@@ -3,13 +3,20 @@
   width: 20%;
 }
 
-.light-background {
-  background-color: green;
+.lightbackground {
+  background-color: lightblue;
+  color: red;
 }
 
-.clickable {
-  sursor: pointer;
-  color: #0088cc;
+.darkbackground {
+  background-color: black;
+  color: lightblue;
+}
+
+
+.use {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .clickable:hover {
